@@ -78,6 +78,25 @@
             <version>${test.junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.9</version>
+        </dependency>
+
+        <!-- OpenCV with native support -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>opencv-platform</artifactId>
+            <version>4.7.0-1.5.9</version>
+        </dependency>
+
+        <!-- OpenBLAS (required for some JavaCV internals) -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>openblas-platform</artifactId>
+            <version>0.3.23-1.5.9</version>
+        </dependency>
     </dependencies>
 
     <build>
